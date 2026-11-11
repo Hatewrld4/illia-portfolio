@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ілля — Python Developer | Портфоліо</title>
+  <meta name="description" content="Персональне портфоліо Іллі — студента, Python-розробника, що захоплюється технологіями та створенням власних цифрових проєктів.">
+  <meta name="theme-color" content="#080D18">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ілля — Python Developer | Портфоліо">
+  <meta property="og:description" content="Студент, Python-розробник та ентузіаст технологій. Переглянь мої проєкти та навички.">
+  <meta property="og:image" content="assets/images/og-cover.svg">
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Перейти до вмісту</a>
+
+  <!-- HEADER -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#home" class="logo">ILLIA<span class="logo-dot">.</span></a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Основна навігація">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active" data-nav>Головна</a></li>
+          <li><a href="#about" class="nav-link" data-nav>Про мене</a></li>
+          <li><a href="#skills" class="nav-link" data-nav>Навички</a></li>
+          <li><a href="#projects" class="nav-link" data-nav>Проєкти</a></li>
+          <li><a href="#interests" class="nav-link" data-nav>Захоплення</a></li>
+          <li><a href="#contact" class="nav-link" data-nav>Контакти</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="https://github.com/Hatewrld4" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-small">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49 0-.24-.01-1.02-.01-1.86-2.78.62-3.37-1.21-3.37-1.21-.46-1.19-1.11-1.51-1.11-1.51-.9-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05a9.33 9.33 0 0 1 5 0c1.9-1.33 2.74-1.05 2.74-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.8-4.57 5.06.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.49A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2Z" fill="currentColor"/></svg>
+          GitHub
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mobileMenu" aria-label="Відкрити меню">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <ul class="mobile-nav-list">
+        <li><a href="#home" class="mobile-nav-link" data-nav-mobile>Головна</a></li>
+        <li><a href="#about" class="mobile-nav-link" data-nav-mobile>Про мене</a></li>
+        <li><a href="#skills" class="mobile-nav-link" data-nav-mobile>Навички</a></li>
+        <li><a href="#projects" class="mobile-nav-link" data-nav-mobile>Проєкти</a></li>
+        <li><a href="#interests" class="mobile-nav-link" data-nav-mobile>Захоплення</a></li>
+        <li><a href="#contact" class="mobile-nav-link" data-nav-mobile>Контакти</a></li>
+      </ul>
+      <a href="https://github.com/Hatewrld4" target="_blank" rel="noopener noreferrer" class="btn btn-primary mobile-github">Мій GitHub</a>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="hero-glow hero-glow-1"></div>
+        <div class="hero-glow hero-glow-2"></div>
+        <div class="hero-grid"></div>
+      </div>
+
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow">Полтавський політехнічний коледж</p>
+          <h1 class="hero-title">Привіт! Я <span class="accent-text">Ілля</span>.</h1>
+          <p class="hero-subtitle">Студент • Python Developer • Technology Enthusiast</p>
+          <p class="hero-description">
+            Мене цікавлять програмування, комп'ютерні технології та створення власних цифрових проєктів.
+            Постійно навчаюся, експериментую та перетворюю ідеї на реальні рішення.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">Переглянути проєкти</a>
+            <a href="https://github.com/Hatewrld4" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Мій GitHub</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <svg class="hero-svg" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="nodeGrad" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#54A9FF"/>
+                <stop offset="100%" stop-color="#318CE7"/>
+              </linearGradient>
+            </defs>
+            <g class="hero-orbit hero-orbit-1">
+              <circle cx="240" cy="240" r="170" stroke="rgba(255,255,255,0.08)" stroke-width="1" fill="none"/>
+            </g>
+            <g class="hero-orbit hero-orbit-2">
+              <circle cx="240" cy="240" r="120" stroke="rgba(84,169,255,0.18)" stroke-width="1" fill="none"/>
+            </g>
+            <g class="hero-orbit hero-orbit-3">
+              <circle cx="240" cy="240" r="70" stroke="rgba(255,255,255,0.1)" stroke-width="1" fill="none"/>
+            </g>
+
+            <rect x="205" y="205" width="70" height="70" rx="16" fill="#111D32" stroke="url(#nodeGrad)" stroke-width="1.5"/>
+            <path d="M228 240 L238 250 L255 230" stroke="#54A9FF" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+            <g class="hero-node hero-node-1">
+              <circle cx="240" cy="70" r="8" fill="url(#nodeGrad)"/>
+            </g>
+            <g class="hero-node hero-node-2">
+              <circle cx="410" cy="240" r="6" fill="url(#nodeGrad)"/>
+            </g>
+            <g class="hero-node hero-node-3">
+              <circle cx="120" cy="360" r="7" fill="url(#nodeGrad)"/>
+            </g>
+            <g class="hero-node hero-node-4">
+              <circle cx="350" cy="370" r="5" fill="url(#nodeGrad)"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-cue" aria-label="Прокрутити до секції Про мене">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">Про мене</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>Мене звати Ілля. Я навчаюся в Полтавському політехнічному коледжі та цікавлюся інформаційними технологіями.</p>
+            <p>Особливу увагу приділяю програмуванню, роботі комп'ютерів та розробці програмного забезпечення.</p>
+            <p>Мені подобається самостійно вивчати нові технології, експериментувати з програмами та знаходити рішення для різних завдань.</p>
+          </div>
+
+          <div class="about-cards">
+            <div class="about-card reveal">
+              <div class="about-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3 2 8l10 5 10-5-10-5Z" stroke="#54A9FF" stroke-width="1.6" stroke-linejoin="round"/><path d="M6 10.5V16c0 1.5 2.7 3 6 3s6-1.5 6-3v-5.5" stroke="#54A9FF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <h3>Навчання</h3>
+              <p>Здобуваю освіту в Полтавському політехнічному коледжі за напрямом інформаційних технологій.</p>
+            </div>
+
+            <div class="about-card reveal">
+              <div class="about-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m8 9-4 3 4 3M16 9l4 3-4 3M13.5 6.5l-3 11" stroke="#54A9FF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <h3>Програмування</h3>
+              <p>Пишу код на Python, створюю ботів та невеликі програми для вирішення повсякденних задач.</p>
+            </div>
+
+            <div class="about-card reveal">
+              <div class="about-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2" stroke="#54A9FF" stroke-width="1.6"/><path d="M8 20h8M12 16v4" stroke="#54A9FF" stroke-width="1.6" stroke-linecap="round"/></svg>
+              </div>
+              <h3>Технології</h3>
+              <p>Цікавлюся тим, як влаштовані комп'ютери, і люблю розбиратися в нових інструментах.</p>
+            </div>
+
+            <div class="about-card reveal">
+              <div class="about-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8" stroke="#54A9FF" stroke-width="1.6" stroke-linecap="round"/></svg>
+              </div>
+              <h3>Саморозвиток</h3>
+              <p>Самостійно опановую нові технології та постійно шукаю, що можна вивчити далі.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">Мої навички</h2>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <div class="skill-icon">PY</div>
+            <h3>Python</h3>
+            <p>Основна мова програмування для моїх проєктів та скриптів.</p>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon">DB</div>
+            <h3>SQLite</h3>
+            <p>Зберігання та обробка даних у невеликих застосунках.</p>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon">GT</div>
+            <h3>Git</h3>
+            <p>Контроль версій коду під час розробки.</p>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon">GH</div>
+            <h3>GitHub</h3>
+            <p>Зберігання проєктів та ведення портфоліо розробника.</p>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon">TG</div>
+            <h3>Telegram Bot API</h3>
+            <p>Створення ботів для автоматизації та обробки запитів користувачів.</p>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon">EV</div>
+            <h3>python-dotenv</h3>
+            <p>Робота зі змінними середовища та налаштуваннями проєктів.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">Мої проєкти</h2>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9.5 15.5 7 18M14.5 15.5 17 18M5 10 12 4l7 6M6 10v8a1 1 0 0 0 1 1h3v-5h4v5h3a1 1 0 0 0 1-1v-8" stroke="#54A9FF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>Telegram Notes Bot</h3>
+            <p>Telegram-бот для створення та збереження особистих нотаток.</p>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="2" stroke="#54A9FF" stroke-width="1.6"/><path d="M8 8h8M8 12h8M8 16h5" stroke="#54A9FF" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Telegram Task Bot</h3>
+            <p>Бот для організації завдань та керування списком справ.</p>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2" stroke="#54A9FF" stroke-width="1.6"/><path d="M8 20h8M12 16v4M7 8h5M7 11h3" stroke="#54A9FF" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </div>
+            <h3>PC Environment Automator</h3>
+            <p>Проєкт для автоматизації налаштувань комп'ютерного середовища.</p>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h10" stroke="#54A9FF" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Office Processor</h3>
+            <p>Проєкт для роботи з офісними завданнями та обробкою інформації.</p>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 8V6a3 3 0 0 1 3-3h0a3 3 0 0 1 3 3v2M4 8h16l-1 12H5L4 8Z" stroke="#54A9FF" stroke-width="1.6" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>Barbershop Bot</h3>
+            <p>Telegram-бот для автоматизації взаємодії з клієнтами барбершопу.</p>
+          </article>
+        </div>
+
+        <div class="projects-cta reveal">
+          <a href="https://github.com/Hatewrld4" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Переглянути GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERESTS -->
+    <section class="section section-alt" id="interests">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">Мої захоплення</h2>
+        </div>
+
+        <div class="interests-grid">
+          <div class="interest-card reveal">
+            <div class="interest-icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2" stroke="#54A9FF" stroke-width="1.6"/><path d="M8 20h8M12 16v4" stroke="#54A9FF" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Комп'ютерні технології</h3>
+            <p>Цікавлюся будовою та роботою комп'ютерів, компонентами та системами.</p>
+          </div>
+
+          <div class="interest-card reveal">
+            <div class="interest-icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="2" y="7" width="20" height="11" rx="5" stroke="#54A9FF" stroke-width="1.6"/><circle cx="8" cy="12.5" r="1.3" fill="#54A9FF"/><circle cx="16" cy="12.5" r="1.3" fill="#54A9FF"/></svg>
+            </div>
+            <h3>Відеоігри</h3>
+            <p>Люблю відеоігри — вони надихають і на ідеї для власних проєктів.</p>
+          </div>
+
+          <div class="interest-card reveal">
+            <div class="interest-icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m8 9-4 3 4 3M16 9l4 3-4 3M13.5 6.5l-3 11" stroke="#54A9FF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>Програмування</h3>
+            <p>Пишу код заради ідеї, а не лише завдання — це моє основне хобі.</p>
+          </div>
+
+          <div class="interest-card reveal">
+            <div class="interest-icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8" stroke="#54A9FF" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Саморозвиток</h3>
+            <p>Регулярно вивчаю щось нове — курси, документацію, невеликі експерименти.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-box reveal">
+          <h2 class="section-title">Зв'язатися зі мною</h2>
+          <p class="contact-text">
+            Дякую за відвідування мого сайту! Якщо тобі цікаві мої проєкти або програмування,
+            можеш переглянути мій GitHub.
+          </p>
+          <a href="https://github.com/Hatewrld4" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-large">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49 0-.24-.01-1.02-.01-1.86-2.78.62-3.37-1.21-3.37-1.21-.46-1.19-1.11-1.51-1.11-1.51-.9-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05a9.33 9.33 0 0 1 5 0c1.9-1.33 2.74-1.05 2.74-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.8-4.57 5.06.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.49A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2Z" fill="currentColor"/></svg>
+            github.com/Hatewrld4
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a href="#home" class="logo footer-logo">ILLIA<span class="logo-dot">.</span></a>
+      <p class="footer-text">Створено з інтересом до технологій та програмування.</p>
+      <p class="footer-copy">© 2026 ILLIA. Усі права захищені.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
